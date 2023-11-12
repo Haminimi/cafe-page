@@ -98,3 +98,74 @@ body {
 .header-element:hover {
     cursor: pointer;
 }
+
+.current-card {
+    color: #FEE715;
+}
+
+.card {
+    background-color: #101820;
+    height: 65%;
+    width: 35%;
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+}
+
+.card-header {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    color: #FEE715;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.header-sticker {
+    height: 70px;
+    width: 70px;
+}
+
+.card-content {
+    height: 80%;
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    width: 100%;
+}
+
+.para {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    line-height: 33px;
+    font-family: 'Poppins', cursive;
+}
+
+.menu-para {
+    justify-content: space-evenly;
+}
+
+.menu-item {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.card-sticker-div {
+    height: 0%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 95%;
+}
+
+.card-sticker {
+    height: 70px;
+    width: 70px;
+}
