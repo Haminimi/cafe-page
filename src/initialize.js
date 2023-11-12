@@ -1,3 +1,10 @@
+import { populateHomeCard } from "./homeCard";
+import { populateContactCard } from "./contactCard";
+import { populateMenuCard } from "./menuCard";
+import coffeeBean from './coffee-bean.png';
+import '@fortawesome/fontawesome-free/js/all.js';
+
+
 export function initialize() {
     const content = document.getElementById('content');
     while (content.firstChild) {
