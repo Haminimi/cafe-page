@@ -75,4 +75,11 @@ export function initialize() {
     content.appendChild(header);
     content.appendChild(card);
     content.appendChild(footer);
+
+    //Tab Switching
+    home.addEventListener('click', populateHomeCard);
+    menu.addEventListener('click', populateMenuCard);
+    contact.addEventListener('click', populateContactCard);
+    
+    return { card, cardHeader, cardHeaderText, firstHeaderStickerDiv, secondHeaderStickerDiv, para, space, home, menu, contact }
 }
