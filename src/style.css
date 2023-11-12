@@ -29,3 +29,34 @@ p, h1, h2, h3, h4, h5, h6 {
 #root, #__next {
     isolation: isolate;
 }
+
+
+body {
+    font-family: 'Caveat', cursive;
+}
+
+::selection {
+    background-color: #FEE715;
+    color: #101820;
+}
+
+::-webkit-scrollbar {
+    width: 10px; 
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FEE715; 
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #c8b612; 
+}
+  
+::-webkit-scrollbar-track {
+    background: #555;
+}
+
+* {
+    scrollbar-color:  #FEE715 #555; 
+}
