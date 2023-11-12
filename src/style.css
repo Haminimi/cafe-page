@@ -192,3 +192,30 @@ body {
     transform: scale(1.2);
     color: #FEE715;
 }
+
+/*Media Queries*/
+@media screen and (max-width: 1150px) {
+    .card {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .card {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .card {
+        width: 75%;
+    }
+
+    .header-cafe {
+        font-size: 30px;
+    }
+
+    .header-element {
+        font-size: 28px;
+    }
+}
