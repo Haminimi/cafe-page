@@ -57,6 +57,18 @@ export function initialize() {
     cardSticker.src = coffeeBean;
     cardSticker.classList.add('card-sticker');
 
+    const photoCredit = document.createElement('div');
+    photoCredit.classList.add('photo-credit');
+    photoCredit.textContent = 'Photo by ';
+    const link = document.createElement('a');
+    link.href = "https://unsplash.com/@thomholmes?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash";
+    link.textContent = 'Thom Holmes ';
+    const anotherLink = document.createElement('a');
+    anotherLink.href = "https://unsplash.com/photos/brown-wooden-dining-table-inside-room-RqASow2Y6Os?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+    anotherLink.textContent = 'on Unsplash';
+    photoCredit.appendChild(link);
+    photoCredit.appendChild(anotherLink);
+
     const footer = document.createElement('div');
     footer.classList.add('footer');
     const space = document.createTextNode('\u00a0\u00a0');
@@ -81,6 +93,7 @@ export function initialize() {
     card.appendChild(cardStickerDiv);
     content.appendChild(header);
     content.appendChild(card);
+    content.appendChild(photoCredit);
     content.appendChild(footer);
 
     //Tab Switching
