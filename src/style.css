@@ -194,6 +194,37 @@ body {
 }
 
 /*Media Queries*/
+@media screen and (min-width: 1800px) {
+    .header-cafe {
+        font-size: 55px;
+    }
+
+    .header-element {
+        font-size: 40px;
+    }
+
+    .card-header {
+        font-size: 45px;
+    }
+
+    .para {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .menu-item {
+        font-size: 25px;
+    }
+
+    .footer {
+        font-size: 40px;
+    }
+
+    .fa-github {
+        font-size: 40px;
+    }
+}
+
 @media screen and (max-width: 1150px) {
     .card {
         width: 45%;
