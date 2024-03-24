@@ -1,5 +1,5 @@
 # Cafe Page ☕
-![Screenshot of the Cafe Page.](/src/assets/images/screenshot.png)
+![Screenshot of the Cafe Page.](/screenshot.png)
 ## Description
 This Cafe Page offers a simple user interface with the home, menu and contact tabs, providing easy access to The Cozy Cup cafe. Experience the essence of The Cozy Cup, discover a diverse menu of coffees, reach out, book an event, or just say hello! The project is a part of [The Odin Project](https://www.theodinproject.com/dashboard)'s [curriculum](https://www.theodinproject.com/lessons/node-path-javascript-restaurant-page). The Odin Project provides a high quality web development education maintained by an open source community.
 ## Live Preview
